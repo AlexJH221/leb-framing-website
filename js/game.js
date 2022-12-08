@@ -5,7 +5,7 @@ document.getElementById('one').addEventListener('click', (e) => {
         let message = document.createElement('p');
         message.setAttribute('style', 'color: #E8DFCA; font-style: italic;');
         let choice = "You chose '" + e.target.innerText + "'\n";
-        message.innerText = choice + "Even though the outcomes are the same, 72%  of people chose Company A while 28% of people chose Company B. This has to do with the fact that most people have negative experiences from COVID-19, so they will choose Company A, which presents itself in a more positive manner.";
+        message.innerText = choice + "Even though the outcomes are the same, 72%  of people chose Company A while 28% of people chose Company B. This has to do with the fact that most people have negative experiences from COVID-19, so they will choose Company A, which presents itself in a more positive manner by guaranteeing the survival of a fraction of the population.";
         let parentNode = e.target.parentNode;
         console.log(parentNode);
         let child = parentNode.firstElementChild;
@@ -23,7 +23,7 @@ document.getElementById('two').addEventListener('click', (e) => {
         let message = document.createElement('p');
         message.setAttribute('style', 'color: #E8DFCA; font-style: italic;');
         let choice = "You chose '" + e.target.innerText + "'\n";
-        message.innerText = choice + "Even though the outcomes are the same, 72%  of people chose Company A while 28% of people chose Company B. This has to do with the fact that most people have negative experiences from COVID-19, so they will choose Company A, which presents itself in a more positive manner.";
+        message.innerText = choice + "Even though the outcomes are the same, 72%  of people chose Company A while 28% of people chose Company B. This has to do with the fact that most people have negative experiences from COVID-19, so they will choose Company A, which presents itself in a more positive manner by guaranteeing the survival of a fraction of the population.";
         let parentNode = e.target.parentNode;
         console.log(parentNode);
         let child = parentNode.firstElementChild;
